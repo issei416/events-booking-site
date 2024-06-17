@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.search {
+    padding: 0.8rem; 
+    background: transparent; 
+    backdrop-filter:blur(10px); 
+    border:1px solid rgb(133, 125, 125);
+}
+
+
+.search:hover {
+    outline: none;
+}
+
+.main_background {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b0c2' fill-opacity='0.1'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.book_button:hover {
+    img {
+        scale:1.1;
+    }
+}
+
+.card_class {
+    height: 5rem;
+}
+
+.card-header {
+    background: rgb(0,0,0,0.7) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(public/icons8-hamburger-menu-64.png);
+}
+
+.search_events {
+    background-color: #FFC107;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b0c2' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.search_events h1 {
+    backdrop-filter:blur(5px);
+}
+
+.bordertop {
+    border-top:1px solid black;
+}
+
+input {
+    border-color: rgb(207, 194, 194);
+}
+
+footer {
+    position: relative;
+    bottom:0;
+}
+
+footer,.footer_div {
+    background-color: #FFC107;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c2bec9' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.footer_div:nth-child(1){
+    backdrop-filter: blur(5px);
+}
+
+form {
+    box-shadow: -28px 28px 30px #575353;
+}
+
+.event_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.event_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.form_fill input {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.form_comp {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width:768px) {
+    .main_height {
+        height: 80vh;
+    }
+    .bordertop {
+        border-top:none;
+    }
+}
