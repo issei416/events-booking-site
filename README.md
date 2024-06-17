@@ -12,6 +12,6 @@ On clicking the Book Now button the site will be redirected to Booking page wher
 * CSS
 * Bootstrap
 
-The site is deployed via netlify.app, [click here](https://events-dev-it.netlify.app) to view.
+The site is deployed via netlify.app, [click here](https://bookit-dev-it.netlify.app) to view.
 
 
